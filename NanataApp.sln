@@ -1,12 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanataApp", "NanataApp.csproj", "{96E2B415-9BC8-BC01-E102-08BC79FBACAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanataApp.Editor", "NanataApp.Editor.csproj", "{5FC8031D-007B-026C-E68E-5B0C207D771B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96E2B415-9BC8-BC01-E102-08BC79FBACAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E2B415-9BC8-BC01-E102-08BC79FBACAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E2B415-9BC8-BC01-E102-08BC79FBACAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E2B415-9BC8-BC01-E102-08BC79FBACAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC8031D-007B-026C-E68E-5B0C207D771B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC8031D-007B-026C-E68E-5B0C207D771B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC8031D-007B-026C-E68E-5B0C207D771B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC8031D-007B-026C-E68E-5B0C207D771B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
